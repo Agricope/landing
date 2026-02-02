@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  
+  --color-primary-green: #0a5038;
+  --color-primary-orange: #d94720;
+  --color-primary-yellow: #ffd85e;
+  --color-text-dark: #010f1c;
+  --color-text-gray: #63726d;
+  --color-text-light: #dddddd;
+  --color-bg-light: #fafafb;
+  --color-white: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-roboto);
+  margin: 0;
+  padding: 0;
+}
